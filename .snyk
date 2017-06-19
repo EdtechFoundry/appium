@@ -1,0 +1,516 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-remote-debugger > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-remote-debugger > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > node-simctl > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-chromedriver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-fake-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-windows-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-base-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-remote-debugger > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-remote-debugger > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > node-simctl > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-adb > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-fake-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-windows-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-base-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-chromedriver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-fake-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-windows-driver > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-simulator > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > node-simctl > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-windows-driver > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-fake-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-windows-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-base-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-chromedriver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-chromedriver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-chromedriver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-fake-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-windows-driver > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-selendroid-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'
+    - appium-youiengine-driver > appium-android-driver > appium-android-bootstrap > appium-uiautomator > appium-support > extract-zip > debug > ms:
+        patched: '2017-06-19T22:01:23.361Z'

@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-ios-driver > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-ios-driver > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-ios-driver > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-ios-driver > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-xcode > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-ios-driver > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-ios-driver > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'
+    - appium-youiengine-driver > appium-xcuitest-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > appium-support > extract-zip > debug > ms:
+        patched: '2017-08-21T22:01:51.968Z'

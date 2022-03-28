@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@edtechfoundry/appium-uiautomator2-driver": "0.0.8",
-    "appium-android-driver": "^1.10.27",
+    "appium-android-driver": "^4.54.0",
     "appium-base-driver": "^2.0.19",
     "appium-fake-driver": "^0.1.10",
     "appium-ios-driver": "^1.12.27",
